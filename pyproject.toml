@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "imagelive"
+version = "0.1.0"
+description = ""
+authors = ["Cosmic <andresbloc@hotmail.es>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+cv = "^1.0.0"
+imagezmq = "^1.1.1"
+fastapi = "^0.111.0"
+uvicorn = "^0.29.0"
+aiohttp = "^3.9.5"
+opencv-python = "^4.9.0.80"
+pytube = "^15.0.0"
+pafy = "^0.5.5"
+youtube-dl = "^2021.12.17"
+yt-dlp = "^2024.4.9"
+vidgear = "^0.3.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
